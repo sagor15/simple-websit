@@ -1,0 +1,200 @@
+body {
+  font: 15px/1.5, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+/* glober */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dark{
+    padding: 15px;
+    background: rgb(61, 59, 59);
+    color: #ffffff;
+}
+
+
+
+/* header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+  
+}
+#brandin {
+  float: left;
+}
+header #brandin h1 {
+  margin: 0px;
+}
+nav {
+  float: right;
+  margin-top: 12px;
+ 
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  /* font-family: sans-serif; */
+}
+nav a:hover {
+}
+ .highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+.current{
+    color:#e8491d ;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 464px;
+    background-image: linear-gradient(to bottom, rgba(51, 53, 65, 0.52), rgba(61, 52, 59, 0.73)) , url(img/hands-of-businesswoman-using-laptop-in-a-cafe-758300173-5a300362ec2f640037fb1dff.jpg) ;
+    background-repeat: no-repeat 0 -464px;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    
+    z-index: 0;
+}
+#showcase h1{
+    color: white;
+    margin-top: 100px;
+    font-size: 68px;
+    z-index: 1;
+}
+#showcase p{
+    color: white;
+    font-size:20px;
+    z-index: 1;
+}
+#newsletter{
+    background-color: #35424a;
+    padding: 20px;
+    color: #ffffff;
+}
+#newsletter h1 {
+    float: left;
+    font-size: 22px;
+}
+#newsletter form {
+    float: right;
+    margin-top: 13px;
+}
+#newsletter input[type='Email'] {
+    padding: 6px;
+    width: 265px;
+    height: 18px;
+    border-radius: 5px;
+}
+.btn {
+    padding: 5px;
+    width: 84px;
+    height: 34px;
+    border-radius: 6px;
+    background:#e8491d;
+    color: #ffffff;
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box {
+    width: 29%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.box img{
+    height: 180px;
+}
+/* sidbar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+}
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+aside#sidebar .qoute input,aside#sidebar .qoute textarea{
+    width: 90%;
+    padding: 10px;
+}
+aside#sidebar{
+    margin-top: 71px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background-color:#e6e6e6;
+}
+.sd {
+    margin-left: 37px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    min-height: 113px;
+    background-color: #e8491d;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 63px;
+}
+footer p {
+    margin-top: 53px;
+    display: inline-block;
+    font-size: 22px;
+}
